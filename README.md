@@ -28,30 +28,30 @@ optional arguments:
                         задержка между запросами (интервал)
 ```
 
-Запуск поиска изображений
+Запуск поиска изображений (в примере ищет котиков 猫 / Māo, на скрине ищет девущек по своему паучьему вкусу)
 ```
-python crawling.py --word "美女" --total_page 10 --start_page 1 --per_page 30
+python crawling.py --word "猫" --total_page 10 --start_page 1 --per_page 30
 ```
 (пока что ищет только на китайском)
 
 Также вы можете изменить ключевое слово поиска в самой строке `crawling.py`.
 По умолчанию изображения сохраняются в пути проекта + слово поиска
+
 Запустите поисковик:
 ``` python
 python crawling.py
 ```
 
-# 博客
+# Записи в блоге автора (имя вроде Цзян Вэйлун)
 
-[爬虫总结](http://www.jwlchina.cn/2016/02/06/python%E7%99%BE%E5%BA%A6%E5%9B%BE%E7%89%87%E7%88%AC%E8%99%AB/)
+[кратко использование / как работает](http://www.jwlchina.cn/2016/02/06/python%E7%99%BE%E5%BA%A6%E5%9B%BE%E7%89%87%E7%88%AC%E8%99%AB/)
 
-效果图：
+Примерно что в итоге получится：
 ![效果图](http://blog-image.jwlchina.cn/kong36088/kong36088.github.io/master/uploads/python%E5%9B%BE%E7%89%87%E7%88%AC%E8%99%AB%E6%88%AA%E5%9B%BE.png)
 
-# 捐赠
+# задонатить автору на развитие этого чуда 
 
-您的支持是对我的最大鼓励！
-谢谢你请我吃糖
+Спасибо！
 ![wechatpay](http://blog-image.jwlchina.cn/kong36088/kong36088.github.io/master/uploads/site/wechat-pay.png)
 ![alipay](http://blog-image.jwlchina.cn/kong36088/kong36088.github.io/master/uploads/site/zhifubao.jpg)
 
