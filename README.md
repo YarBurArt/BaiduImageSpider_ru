@@ -1,29 +1,29 @@
 # BaiduImageSpider
-百度图片爬虫，基于python3
+Паучек для изображений из Baidu, основанный на python3
 
-个人学习开发用
+Для личного обучения и творчества
 
-单线程爬取百度图片。
+Ползание по изображениям Baidu в однопоточном режиме.
 
-# 爬虫工具 Required
+# Паучьи требования
 
-**需要安装python版本 >= 3.6**
+**Установленный python версии >= 3.6**
 
-# 使用方法
+# Использование
 ```
 $ python crawling.py -h
 usage: crawling.py [-h] -w WORD -tp TOTAL_PAGE -sp START_PAGE
                    [-pp [{10,20,30,40,50,60,70,80,90,100}]] [-d DELAY]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -w WORD, --word WORD  抓取关键词
+  -h, --help            показать это сообщение помощи (пока что на китайском)
+  -w WORD, --word WORD  ключевое слово
   -tp TOTAL_PAGE, --total_page TOTAL_PAGE
-                        需要抓取的总页数
+                        количество страниц, которые необходимо просмотреть
   -sp START_PAGE, --start_page START_PAGE
-                        起始页数
+                        первая страница
   -pp [{10,20,30,40,50,60,70,80,90,100}], --per_page [{10,20,30,40,50,60,70,80,90,100}]
-                        每页大小
+                        количество страниц
   -d DELAY, --delay DELAY
                         抓取延时（间隔）
 ```
