@@ -16,8 +16,8 @@ usage: crawling.py [-h] -w WORD -tp TOTAL_PAGE -sp START_PAGE
                    [-pp [{10,20,30,40,50,60,70,80,90,100}]] [-d DELAY]
 
 optional arguments:
-  -h, --help            показать это сообщение помощи (пока что на китайском)
-  -w WORD, --word WORD  ключевое слово
+  -h, --help            показать это сообщение помощи 
+  -w WORD, --word WORD  ключевое слово (на китайском либо перевод)
   -tp TOTAL_PAGE, --total_page TOTAL_PAGE
                         количество страниц, которые необходимо просмотреть
   -sp START_PAGE, --start_page START_PAGE
